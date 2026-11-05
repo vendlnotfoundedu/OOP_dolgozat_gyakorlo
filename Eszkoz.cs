@@ -38,6 +38,15 @@ namespace OOP_dolgozat_gyakorlo
             keszlet = Keszlet;
             osszesRegisztraltEszkoz++;
         }
+        public override string ToString()
+        {
+            return $"[{Azonosito}] {Nev} ({Kategoria}) - Napi díj: {NapiDij} Ft | Készlet: {Keszlet} db";
+        }
+        public int TeljesNapiBevetel()
+        {
+            return NapiDij*Keszlet;
+        }
+        //public bool KategoriaEgyezik(string keresettKategoria)
     }
     
 }
