@@ -31,11 +31,11 @@ namespace OOP_dolgozat_gyakorlo
         }
         public Eszkoz(string azonosito, string nev, string kategoria, int napiDij, int keszlet)
         {
-            azonosito = Azonosito;
-            nev = Nev;
-            kategoria = Kategoria;
-            napiDij = NapiDij;
-            keszlet = Keszlet;
+            Azonosito = azonosito;
+            Nev = nev;
+            Kategoria = kategoria;
+            NapiDij = napiDij;
+            Keszlet = keszlet;
             osszesRegisztraltEszkoz++;
         }
         public override string ToString()
